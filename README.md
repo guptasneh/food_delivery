@@ -1,18 +1,4 @@
 # food_delivery
 This project aimed to predict food delivery times and classify them as "Fast" or "Delayed." We cleaned and processed the data, engineered features like rush hour, and built both linear and logistic regression models.
 
-Linear Regression predicted exact delivery time with good accuracy.
-
-Logistic Regression classified delays with high precision and recall.
-
-Key factors influencing delays: traffic, weather, rush hour, and distance.
-
-Recommendations:
-
-Optimize routes using traffic data.
-
-Allocate more resources during peak hours.
-
-Train and retain skilled delivery personnel.
-
-Use weather and time data to adjust expectations in real time.
+In this Food Delivery Project, food delivery time was analyzed and predicted with linear and logistic regression models. Data preprocessing was conducted, including encoding of categorical variables and normalization. Median, mode, and variance values as key statistics were calculated, and correlation analysis concluded that distance and traffic conditions do matter to delivery time. A linear regression model was developed for prediction of delivery time with an R score of approximately (put your exact R value here, e.g., 0.75), showing a fair fit between actual and predicted delivery times. Meanwhile, for classification, a logistic regression model was trained to predict fast and slow deliveries, with a good classification performance with an accuracy of approximately (put your exact accuracy here, e.g., 0.83) and an AUC of (your AUC value, e.g., 0.85). Some actionable insights include focusing on route optimization during traffic and order prioritization. Overall, the predictive modeling pipeline can aid food delivery services in becoming more efficient and improving customer satisfaction.
